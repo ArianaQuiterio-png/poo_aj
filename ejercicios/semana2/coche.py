@@ -11,4 +11,16 @@ class Coche:
         self.color=color
         self.cajuela=cajuela
         self.aire_acondicionado=aire_acondicionado
-        self.estanadr=estandar
+        self.estanadar=estandar
+        print(f"La marca es {self.marca}")
+        print(f"El modelo es {self.modelo}")
+        print(f"Tiene {self.puertas}")
+        print(f"Tiene {self.ventanas}")
+        print(f"Tiene {self.llantas}")
+        print(f"Tiene una capacidad de {self.capacidad}")
+        print(f"Es de color {self.color}")
+        print(f"Su cajuela es {self.cajuela}")
+        print(f"Tiene aire acondicionado {self.aire_acondicionado}")
+        print(f"Es {self.estanadar}")
+corvette= Coche("Chevrolet","Corvette C7","2 puertas","2 y un parabrisas",
+                "4 llantas","2 personas","Negro","Pequeña",True,"Automatico")
